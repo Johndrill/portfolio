@@ -67,12 +67,6 @@
 
  @media (max-width: 576px){
     
-    .main .about-section{
-        /* display: none; */
-    }
-    .main .resume-section .resume-container {
-        
-        
-        /* grid-template-columns: none */
-    }
+    
+    
  }
