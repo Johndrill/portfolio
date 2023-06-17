@@ -1,0 +1,78 @@
+.main .resume-section {
+    height: 100vh;
+    background: #000;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.main .resume-section h2 {
+    font-size: 42px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary);
+}
+
+.main .resume-section p {
+    font-size: 20px;
+    margin: 0 100px 50px;
+    text-align-last: center;
+}
+
+.main .resume-section .resume-container {
+    margin: 0 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+
+
+.main .resume-section .resume-container h3 {
+    font-size: 30px;
+    color: var(--primary);
+}
+
+.main .resume-section .resume-container div{
+    font-size: 20px;
+    
+}
+
+.main .resume-section .resume-container div span{
+    color: var(--primary);
+    
+}
+
+
+
+
+ /* desktop/laptop */
+ @media (max-width: 1200px){
+    
+ }
+
+ /* desktop/tablet */
+ @media (max-width: 992px){
+    
+ }
+
+  /* tablet/mobile large */
+  @media (max-width: 768px){
+    
+  }
+
+ /* mobile */
+
+ @media (max-width: 576px){
+    
+    .main .about-section{
+        display: none;
+    }
+    .main .resume-section .resume-container {
+        
+        
+        grid-template-columns: none
+    }
+ }
